@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Table(name = "city", catalog = "job4sure")
 public class City implements java.io.Serializable {
 
-	private static final long serialVersionUID = 1L;
+	private  static final long serialVersionUID = 1L;
 	private Integer cityId;
 	private String cityName;
 	private Integer stateId;
